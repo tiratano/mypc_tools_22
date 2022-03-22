@@ -191,7 +191,7 @@ namespace mypc_tools
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Add Startup Fail: " + ex);
+                MessageBox.Show("레지스트리 등록 실패 > 관리자 권한으로 재시도해보세요.: " + ex);
             }
         }
 
@@ -207,7 +207,7 @@ namespace mypc_tools
             }
             catch
             {
-                MessageBox.Show("Remove Startup Fail");
+                MessageBox.Show("레지스트리 제거 실패 > 관리자 권한으로 재시도해보세요.");
             }
         }
     }
